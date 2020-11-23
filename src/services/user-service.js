@@ -6,6 +6,7 @@ export default {
         reader.readAsDataURL(files[0]);
         reader.onloadend = () => {
             self.user.avatar = reader.result;
+            self.$forceUpdate();
         };
     },
 

@@ -63,7 +63,7 @@
 		},
 
 		created() {
-			this.user ={ ...this.$store.getters.user};
+			this.user = { ...this.$store.getters.user };
 		},
 	};
 </script>
