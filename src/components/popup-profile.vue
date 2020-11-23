@@ -34,7 +34,7 @@
 						<output>{{ errMessage.email }}</output>
 					</label>
 					<label class="popup__user-label">
-						Пороль:
+						Пароль:
 						<input
 							type="password"
 							:class="errMessage.pass ? 'error' : ''"
